@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
+import { FooterWrapper } from "./footer.style";
 
 export const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+  return <FooterWrapper>Footer</FooterWrapper>;
+};
