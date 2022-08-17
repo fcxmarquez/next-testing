@@ -1,8 +1,8 @@
-import React from 'react'
-import { HeaderWrapper } from './header.styles'
+import React from "react";
+import { HeaderWrapper } from "./header.styles";
 
-export const Header = () => {
-  return (
-    <HeaderWrapper>Header</HeaderWrapper>
-  )
-}
+interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {}
+
+export const Header = (props: HeaderProps) => {
+  return <HeaderWrapper {...props}>Header</HeaderWrapper>;
+};
