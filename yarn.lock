@@ -207,6 +207,22 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@heyhomie/homie-ui-external@^0.5.46":
+  version "0.5.46"
+  resolved "https://npm.pkg.github.com/download/@HeyHomie/homie-ui-external/0.5.46/108dfb454851209d6eee6cda6a7d04df6075ebd4#108dfb454851209d6eee6cda6a7d04df6075ebd4"
+  integrity sha512-2NC74IeHOK3269cTYut1ZqW7zl4DvihdjI6w8HmMqZSTnNqRYndWAIFTvn99mDI3pPTVInEOtfhm9g7IY2qHzg==
+  dependencies:
+    "@activesupport.js/base" "^0.1.5"
+    "@activesupport.js/case" "^0.1.5"
+    "@activesupport.js/date" "^0.1.5"
+    "@babel/runtime" "^7.17.2"
+    dayjs "^1.11.0"
+    framer-motion "^6.2.8"
+    luxon "^2.3.1"
+    nanoid "^3.3.1"
+    react-calendar "^3.7.0"
+    react-phone-input-2 "^2.15.1"
+
 "@heyhomie/homie-ui-external@link:../../homie/homie-ui-external":
   version "0.0.0"
   uid ""

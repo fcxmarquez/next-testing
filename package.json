@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "link-local-lib": "yarn link @heyhomie/homie-ui-external && yarn link react && yarn unlink react-dom && yarn add link:../../homie/homie-ui-external",
+    "link-local-lib": "yarn link @heyhomie/homie-ui-external && yarn link react && yarn link react-dom && yarn add link:../../homie/homie-ui-external",
     "unlink-local-lib": "yarn remove @heyhomie/homie-ui-external && yarn unlink @heyhomie/homie-ui-external && yarn unlink react && yarn unlink react-dom && yarn add @heyhomie/homie-ui-external"
   },
   "dependencies": {

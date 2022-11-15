@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             variant="outside"
             heading="Nombre(s)"
             placeholder="Ej. Miguel"
-            isDialCode
+            
           />
         </ThemeProvider>
 
