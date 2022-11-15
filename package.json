@@ -6,19 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "link-local-lib": "yarn link @heyhomie/homie-ui-external && yarn link react && yarn unlink react-dom && yarn add link:../../homie/homie-ui-external",
+    "unlink-local-lib": "yarn remove @heyhomie/homie-ui-external && yarn unlink @heyhomie/homie-ui-external && yarn unlink react && yarn unlink react-dom && yarn add @heyhomie/homie-ui-external"
   },
   "dependencies": {
+    "@heyhomie/homie-ui-external": "link:../../homie/homie-ui-external",
     "next": "12.1.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/node": "17.0.30",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
+    "@types/styled-components": "^5.1.26",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5",
     "typescript": "4.6.4"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
